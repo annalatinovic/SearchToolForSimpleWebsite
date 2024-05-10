@@ -1,6 +1,6 @@
 # COMP3011 Coursework 2
 
-## Brief: Develop a search tool that finds web pages containing certain query phases in a website
+### Brief: Develop a search tool that finds web pages containing certain query phases in a website
 
 In order to run the program, search.py must be ran. 
 
@@ -38,7 +38,7 @@ Example: load
 The index file exists.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-### print [specified word]
+### print [word]
 
 The print command prints the inverted index for the inputted [inputted word].
 As the print command is in progress, there will be print statements about:
