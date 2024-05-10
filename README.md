@@ -23,7 +23,7 @@ As the build command is in progress, there will be print statements about:
 
 A 3 second wait happens before the index file is being saved.
 
-**Note:** If there is a slight stall when building the inverted index, just let it continue on its own, or press "Enter" once
+*Note:* If there is a slight stall when building the inverted index, just let it continue on its own, or press "Enter" once
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### load
