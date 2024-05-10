@@ -7,6 +7,7 @@ In order to run the program, search.py must be ran.
 When search.py is ran, there are library messages that are printed, such as “[nltk_data] Downloading package stopwords to C:\Users\Anna.” These are from the nltk library. 
 
 The following commands are: build, load, print [inputted word], find [query phase], and quit
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### build
 
@@ -23,6 +24,7 @@ As the build command is in progress, there will be print statements about:
 A 3 second wait happens before the index file is being saved.
 
 **Note:** If there is a slight stall when building the inverted index, just let it continue on its own, or press "Enter" once
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### load
 
@@ -33,6 +35,7 @@ As the load command is in progress, there will be print statements about:
 
 Example: load
 The index file exists.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### print [specified word]
 
@@ -47,6 +50,7 @@ Example: print creative
 The word's positions in https://quotes.toscrape.com/author/Madeleine-LEngle are 211.
 The word's positions in https://quotes.toscrape.com/author/Stephenie-Meyer are 201.
 The word's positions in https://quotes.toscrape.com/author/Jim-Henson are 28.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### find [query phase]
 
@@ -102,6 +106,7 @@ https://quotes.toscrape.com/author/Stephenie-Meyer
 
 The following pages contain 'childish':
 https://quotes.toscrape.com/author/Albert-Einstein
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### quit
 
