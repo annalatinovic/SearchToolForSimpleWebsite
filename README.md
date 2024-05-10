@@ -40,12 +40,12 @@ The index file exists.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### print [word]
 
-The print command prints the inverted index for the inputted [inputted word].
+The print command prints the inverted index for the inputted [word].
 As the print command is in progress, there will be print statements about:
 1. if there is no inverted index for the command to use - "You need to load the index file first."
-2. if the [inputted word] does not exist in the inverted index - "[inputted word] does not exist in the inverted index."
-3. when it is printing the inverted index for the inputted word - "Printing inverted index for [inputted word]."
-4. the word's positions in the specified web page from the inverted index - "The word's positions in [outputted url] are [word positions]."
+2. if the [word] does not exist in the inverted index - "[word] does not exist in the inverted index."
+3. when it is printing the inverted index for the inputted word - "Printing inverted index for [word]."
+4. the word's positions in the specified web page from the inverted index - "The word's positions in [word] are [word positions]."
 
 Example: print creative
 
