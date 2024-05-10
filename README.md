@@ -13,13 +13,13 @@ The following commands are: build, load, print [inputted word], find [query phas
 
 The build command crawls the website, builds the inverted index, and saves the inverted index into a file. 
 As the build command is in progress, there will be print statements about: 
-    1. what website is being crawled -  " ... is being crawled right now."
-    2. when the website finishes crawling - "Finished crawling ..."
-    3. any errors that occur - "An error occurred crawling ... "
-    4. when a politeness window of 6 seconds is being observed - "Waiting 6 seconds."
-    5. when the politeness window of 6 seconds finishes - "Waited 6 seconds."
-    6. when the inverted index is being saved - "Saving the index file."
-    7. when the build command finishes crawling all the websites - "Finished web crawling all the links."
+1. what website is being crawled -  " ... is being crawled right now."
+2. when the website finishes crawling - "Finished crawling ..."
+3. any errors that occur - "An error occurred crawling ... "
+4. when a politeness window of 6 seconds is being observed - "Waiting 6 seconds."
+5. when the politeness window of 6 seconds finishes - "Waited 6 seconds."
+6. when the inverted index is being saved - "Saving the index file."
+7. when the build command finishes crawling all the websites - "Finished web crawling all the links."
 
 A 3 second wait happens before the index file is being saved.
 
@@ -30,8 +30,8 @@ A 3 second wait happens before the index file is being saved.
 
 The load command loads the index file from the file system. 
 As the load command is in progress, there will be print statements about:
-    1. if the file does not exist in the file system - "The index file does not exist. The file needs to be built before loading."
-    2. if the file does exist - "The index file exists."
+1. if the file does not exist in the file system - "The index file does not exist. The file needs to be built before loading."
+2. if the file does exist - "The index file exists."
 
 Example: load
 
@@ -42,10 +42,10 @@ The index file exists.
 
 The print command prints the inverted index for the inputted [inputted word].
 As the print command is in progress, there will be print statements about:
-    1. if there is no inverted index for the command to use - "You need to load the index file first."
-    2. if the [inputted word] does not exist in the inverted index - "[inputted word] does not exist in the inverted index."
-    3. when it is printing the inverted index for the inputted word - "Printing inverted index for [inputted word]."
-    4. the word's positions in the specified web page from the inverted index - "The word's positions in [outputted url] are [word positions]."
+1. if there is no inverted index for the command to use - "You need to load the index file first."
+2. if the [inputted word] does not exist in the inverted index - "[inputted word] does not exist in the inverted index."
+3. when it is printing the inverted index for the inputted word - "Printing inverted index for [inputted word]."
+4. the word's positions in the specified web page from the inverted index - "The word's positions in [outputted url] are [word positions]."
 
 Example: print creative
 
@@ -60,9 +60,9 @@ The word's positions in https://quotes.toscrape.com/author/Jim-Henson are 28.
 
 The find command searches for a certain query phase in the inverted index and returns all pages containing the phrase. 
 As the find command is in progress, there will be print statements about:
-    1. if there is no inverted index for the command to use - "You need to load the index file first."
-    2. if there are no results (web pages) from the query - "No query results for [query phase]
-    3. list of web pages that contain the query - "The following pages contain [query phase] ... "
+1. if there is no inverted index for the command to use - "You need to load the index file first."
+2. if there are no results (web pages) from the query - "No query results for [query phase]
+3. list of web pages that contain the query - "The following pages contain [query phase] ... "
 
 Example: find nevertheless pretty childish
 
