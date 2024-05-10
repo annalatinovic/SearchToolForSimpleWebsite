@@ -50,7 +50,9 @@ As the print command is in progress, there will be print statements about:
 Example: print creative
 
 The word's positions in https://quotes.toscrape.com/author/Madeleine-LEngle are 211.
+
 The word's positions in https://quotes.toscrape.com/author/Stephenie-Meyer are 201.
+
 The word's positions in https://quotes.toscrape.com/author/Jim-Henson are 28.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -93,23 +95,36 @@ https://quotes.toscrape.com/author/Albert-Einstein
 The following pages contain 'nevertheless':
 
 https://quotes.toscrape.com/author/Albert-Einstein
+
 https://quotes.toscrape.com/author/E-E-Cummings
 
 
 The following pages contain 'pretty':
 
 https://quotes.toscrape.com/tag/inspirational/page/1/
+
 https://quotes.toscrape.com/author/Albert-Einstein
+
 https://quotes.toscrape.com/tag/life/page/1/
+
 https://quotes.toscrape.com/tag/love/
+
 https://quotes.toscrape.com/tag/life/
+
 https://quotes.toscrape.com/page/2/
+
 https://quotes.toscrape.com/tag/love/page/1/
+
 https://quotes.toscrape.com/tag/friends/
+
 https://quotes.toscrape.com/tag/inspirational/
+
 https://quotes.toscrape.com/tag/sisters/page/1/
+
 https://quotes.toscrape.com/tag/heartbreak/page/1/
+
 https://quotes.toscrape.com/tag/friends/page/1/
+
 https://quotes.toscrape.com/author/Stephenie-Meyer
 
 
