@@ -80,7 +80,7 @@ The following pages contain 'pretty childish' consecutively:
 
 https://quotes.toscrape.com/author/Albert-Einstein
 
-*NOTE* When you look on the web page, you will see "...pretty childish." and then "Childish superstition:.." in the text. This query phase accounts for 'pretty childish' being farther apart, so 'childish' in "Childish superstition:..." is the word accounted for being farther apart. Since all the text is changed to be lowercase in the program, there isn't a difference between the two 'childish'.
+**NOTE** When you look on the web page, you will see "...pretty childish." and then "Childish superstition:.." in the text. This query phase accounts for 'pretty childish' being farther apart, so 'childish' in "Childish superstition:..." is the word accounted for being farther apart. Since all the text is changed to be lowercase in the program, there isn't a difference between the two 'childish'.
 
 No query results for nevertheless pretty scattered.
 
