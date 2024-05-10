@@ -1,4 +1,4 @@
-### COMP3011 Coursework 2
+# COMP3011 Coursework 2
 
 ## Brief: Develop a search tool that finds web pages containing certain query phases in a website
 
@@ -8,7 +8,7 @@ When search.py is ran, there are library messages that are printed, such as “[
 
 The following commands are: build, load, print [inputted word], find [query phase], and quit
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-# build
+### build
 
 The build command crawls the website, builds the inverted index, and saves the inverted index into a file. 
 As the build command is in progress, there will be print statements about: 
@@ -24,7 +24,7 @@ A 3 second wait happens before the index file is being saved.
 
 **Note:** If there is a slight stall when building the inverted index, just let it continue on its own, or press "Enter" once
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-# load
+### load
 
 The load command loads the index file from the file system. 
 As the load command is in progress, there will be print statements about:
@@ -34,7 +34,7 @@ As the load command is in progress, there will be print statements about:
 Example: load
 The index file exists.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-# print [specified word]
+### print [specified word]
 
 The print command prints the inverted index for the inputted [inputted word].
 As the print command is in progress, there will be print statements about:
@@ -48,7 +48,7 @@ The word's positions in https://quotes.toscrape.com/author/Madeleine-LEngle are 
 The word's positions in https://quotes.toscrape.com/author/Stephenie-Meyer are 201.
 The word's positions in https://quotes.toscrape.com/author/Jim-Henson are 28.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-# find [query phase]
+### find [query phase]
 
 The find command searches for a certain query phase in the inverted index and returns all pages containing the phrase. 
 As the find command is in progress, there will be print statements about:
@@ -103,6 +103,6 @@ https://quotes.toscrape.com/author/Stephenie-Meyer
 The following pages contain 'childish':
 https://quotes.toscrape.com/author/Albert-Einstein
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-# quit
+### quit
 
 The quit command terminates the search tool.
