@@ -134,3 +134,7 @@ https://quotes.toscrape.com/author/Albert-Einstein
 ### quit
 
 The quit command terminates the search tool.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Improvements
+I would clean up find_query_phase.py by reducing the number of nested for-loops in the different query functions.
